@@ -26,7 +26,14 @@ inline fun <reified A : Any, reified B : Any, reified C : Any, reified D : Any, 
     println(result)
 }
 
+fun otherFunction() {
+
+}
+
 fun main(): Unit = run {
+
+    /*start typing "pr" here, and see how long it takes for the autocompletion popup to show "println"*/
+    /*see how different it is with and without the explicit return type.*/
 
     complexTypes(1, "String", 1.0, listOf(1, 2, 3), mapOf("key" to "value"))
     complexTypes(1, "String", 1.0, listOf(1, 2, 3), mapOf("key" to "value"))
